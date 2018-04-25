@@ -1,0 +1,61 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <title>Audio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/loader.css">
+</head>
+<body>
+
+<header>
+    <a href="#" class="logo"> Coco Playlist</a>
+</header>
+
+
+<section>
+    <div class="changeSongs sidebar1" onclick="previousSong()">
+        <div class="verticalLine"></div>
+        <div class="leftArrow"></div>
+    </div>
+
+    </div>
+    <div class="changeSongs sidebar2" onclick="nextSong()">
+        <div class="rightArrow"></div>
+        <div class="verticalLine"></div>
+    </div>
+
+    <div class="playlist">
+        <h3>Playlist:</h3>
+        <div id="playlist"></div>
+
+            <div class="playNstop" onclick="loadSong()">
+                <h4>Play</h4>
+            </div>
+            <div class="playNstop" onclick="stopPlay()">
+                <h4>Stop</h4>
+
+
+        </div>
+        <div class="loader" id="loader"></div>
+    </div>
+
+
+    <!--
+    <button onclick="playOrPauseSong">pause</button>
+    <h2 id="songTitle"></h2>
+    -->
+</section>
+<footer>
+    <p class="logo">Web Audio API</p>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+
+</script>
+</body>
+</html>
