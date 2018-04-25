@@ -72,7 +72,6 @@ function stopPlay() {
         let node = document.createElement('p');
         let title = document.createTextNode(songs[i].title);
         node.appendChild(title);
-        node.setAttribute('id', i);
         playlist.appendChild(node);
 
     }
