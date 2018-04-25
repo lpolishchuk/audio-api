@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+body {
+    background: #222222;
+}
+
+.logo {
+    font-family:  cursive;
+    text-decoration: none;
+}
+
+section {
+    max-width: 1200px;
+    text-align: center;
+    margin: 40px auto;
+    display: flex;
+}
+
+.sidebar1 {
+    flex: 1;
+    order: 1;
+    margin: 10% 0;
+}
+
+.sidebar2 {
+    flex: 1;
+    order: 3;
+    margin: 10% 0;
+}
+
+.playlist {
+    flex: 2;
+    order: 2;
+    background: grey;
+    border: double darkslategray 15px;
+    border-radius: 15px;
+}
+
+.playNstop {
+    background: #8C8C8C;
+    display: inline-block;
+    /*padding: 5px;*/
+    width: 70px;
+    padding: 0;
+    border: 1px black;
+    border-radius: 10px;
+
+
+}
+.sidebar1 > div, .sidebar2 > div {
+    display: inline-block;
+}
+
+.leftArrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 50px 50px 0;
+    border-color: transparent darkslategray transparent transparent;
+}
+
+.verticalLine {
+    border-left: 6px solid darkslategray;
+    height: 100px;
+}
+
+.rightArrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 0 50px 50px;
+    border-color: transparent transparent transparent darkslategray;
+}
+
+footer > .logo{
+    text-align: right;
+}

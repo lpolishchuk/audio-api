@@ -1,0 +1,19 @@
+.loader {
+    margin: 15px 44%;
+    border: 16px solid #8C8C8C;
+    border-radius: 50%;
+    border-top: 15px solid darkslategray;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+    visibility: hidden;
+    opacity: 0;
+}
+.done{
+    opacity: 1;
+    visibility: visible;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
